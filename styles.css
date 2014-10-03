@@ -1,0 +1,29 @@
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+.background{
+  color: #ddd3f5
+ 	}
+
+.password{
+  background: #eee;
+  padding: 20px; 
+  width:750px;
+  height:20px
+}
+
+
+h2{
+	
+	font-family:  ;
+	color:#142753;
+	text-align: center;
+	
+}
+body {
+
+            background-color:#e2ddff;
+ 			text-align: left;
+			width:50%;
+			margin: 0 auto;
+		}	

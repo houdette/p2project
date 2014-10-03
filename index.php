@@ -1,13 +1,14 @@
-<html><head><title>  Password generator</title>
-<style type="text/css">
-.password{
-  background: #eee;
-  padding: 20px;
-}
-</style>
+<!DOCTYPE html>
+<html>
+
+<head> 
+
+<h2> Doudy's Password Generator</h2>
+<h4> This page uses a "xkcd" style password. If you are not familiar with it, see below: </h4>
 </head>
 <body>
-  <h1> Doudy's Password generator</h2>
+ 
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
    <?php require "logic.php"?>
 
     <form action="" method="POST" role="form">
@@ -33,16 +34,23 @@
         <input type="checkbox" name="addspecial" id="addspecial" checked="">
       </div>
 
-      <button type="submit">Generate</button>
+      <button type="submit">Generate Password</button>
     </form>
 
     <div class="password">
+    
       <?php
       if ($_POST['numberwords'])
         echo "Password is: " . random_readable_pwd($_POST['numberwords']);
-      
-      ?>
-    </div>
+    ?> 
+    </body><br></br>
+    <br></br>
+   
+   
+   
+    <img src='http://imgs.xkcd.com/comics/password_strength.png'/>
+    
+    
 
-  </body>
+ 
   </html>
