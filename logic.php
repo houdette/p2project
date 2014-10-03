@@ -3,7 +3,7 @@ function random_readable_pwd($length='3'){
 
   // the wordlist from which the password gets generated 
  
-  $words = array ("chuckle", "puffins","particles","captain","maecja","pugncea","ubuesque","bulbous","tagine","marmitte", "councel", "mamcam", "mainland", "charisma", "falacious", "brainy", "gracious", "breathtaking", "malicious", "bravery","facile");
+  $words = array ("chuckle", "puffins","particles","caprain","maecja","pugncea","ubuesque","bulbous","tagine","marmitte", "councel", "mamcam", "mainland", "charisma", "falacious", "brainy", "gracious", "breathtaking", "malicious", "bravery","facile");
   
      
   if (count($words) == 0){ die('wordlist is empty!'); }
